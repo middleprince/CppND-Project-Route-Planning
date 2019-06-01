@@ -1,6 +1,6 @@
 # Route Planning Project Starter Code
 
-This is the starter code for the Route Planning project. Instructions for each exercise can be found in the `instructions` directory, and unit tests for some exercises in the `test` directory.
+This is the Route Planning project. Instructions for each exercise can be found in the `instructions` directory, and unit tests for some exercises in the `test` directory.
 
 ## Cloning
 
