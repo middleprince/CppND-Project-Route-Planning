@@ -12,10 +12,25 @@ or with SSH:
 ```
 git clone git@github.com:middleprince/CppND-Project-Route-Planning.git --recurse-submodules
 ```
-
+## Requirements
+- [io2d](https://github.com/cpp-io2d/P0267_RefImpl)
 ## Compiling and Running
 
 ### Compiling
+#### install io2d 
+Firstly, make sure you have io2d lib installed on your host.If not check the [io2d install help](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md) to finish the installation.
+
+If you were using MacOs, you can install io2d by vckpg.
+Here is the instruction:
+```
+git clone https://github.com/microsoft/vcpkg
+cd vcpkg
+./vcpkg install io2d
+
+cmake -DCMAKE_TOOLCHAIN_FILE=$HOME/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+make
+```
+#### Compiling the project
 To compile the project, first, create a `build` directory and change to that directory:
 ```
 mkdir build && cd build
